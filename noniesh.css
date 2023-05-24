@@ -1,0 +1,356 @@
+/* Style the navigation menu */
+body
+{
+    background-color: black;
+    color:azure;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar {
+    width: 100%;
+    background-color: #0b0101;
+    overflow: auto;
+    display:flex;
+  }
+  
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 20%; 
+    text-align: center; 
+    transition: font 1s;
+  }
+  .navbar a:hover {
+    /* background-image: linear-gradient( #f0c27b, #4b1248); */
+    background-color:  #99ffcc;
+    color:black;
+    font:2.5rem;
+
+  }
+  @media screen and (max-width: 500px)
+  {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; 
+    }
+}
+.pic
+{ 
+    display:flex;
+    width:100%;
+    height:230px;
+    border:2px solid black;
+    transition: background-image 1s;
+    animation-name: example;
+    animation-duration: 4s;
+    background-color:  #99ffcc;
+    
+}
+
+.pic2
+{
+    position: absolute;
+    left:600px;
+    top:200px;
+    width: 230px;
+    height: 230px;
+    background: url("noniesh1.jpg") 0 1px / cover;
+    border-radius: 50%;
+    border: 4px solid black;
+    display:flex;
+
+}
+.pic2:hover
+{
+    border: 4px solid white;
+}
+.Name
+{
+    position:absolute;
+  left:520px;
+  top:390px;
+  font-size:3rem;
+  display:flex;
+}
+.links-container
+{
+    position:absolute;
+    left:900px;
+    top:5px;
+}
+.matter
+{   position:absolute;
+    left:0px;
+    top:100px;
+    font-size:1.25rem;
+    transition:font-size 2s;
+}
+.matter
+{
+    font-size:1.25rem;
+}
+.skil 
+{
+    position:absolute;
+    left:0px;
+    top:720px;
+    border:4px solid #fff;
+    width:100%;
+}
+@media screen and (min-width: 1001px) {
+    .skillsContainer {
+        display: grid;
+        /* grid-template-columns: 30% 30% 30%; */
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        column-gap: 40px;
+        row-gap: 20px;
+        background-color: #0c0101;
+        padding: 65px;
+        
+    }
+
+    .python,.cpp, .html-css,.Machine_learning,.Java,.Datascience{
+        width: 300px;
+        height: 190px;
+        background-color:  #99ffcc;
+        color:black;
+        transition: width 2s;
+        transition: height 2s;
+        transition: font 1s;
+        transition: background-image 1s;
+
+    }
+    .python:hover{
+        width:350px;
+        height:210px;
+        font:2.5rem;
+     }
+
+    .cpp:hover{
+        width:350px;
+        height:210px;
+        font:2.5rem;
+        
+    }
+    .html-css:hover{
+        width:350px;
+        height:210px;
+        font:2.5rem;
+    }
+    .Machine_learning:hover{
+        width:350px;
+        height:210px;
+        font:2.5rem;
+    }
+    .Java:hover{
+        width:350px;
+        height:210px;
+        font:2.5rem;
+        
+    }
+    .Datascience:hover{
+        width:350px;
+        height:210px;
+        font:2.5rem;
+    }
+    .skillsContainer-h1{
+
+
+        text-align: center;
+        font-size: 3rem;
+        background-color: #0c0101;
+        color:#ffffff;
+        transition: font-size 1s;
+        
+    
+    }
+    .skillsContainer-h1:hover{
+        font-size: 5rem;
+    }
+    
+}
+
+.skillsContainer-h1{
+    text-align: center;
+    font-size: 3rem;
+    background-color: #0c0101;
+    color:#ffffff;
+    transition: font-size 1s;
+    
+
+}
+.skillsContainer-h1:hover{
+    font-size: 5rem;
+}
+.fa-html5 {
+    color: #e34c26;
+}
+
+.fa-css3-alt {
+    color: #0098ff;
+}
+
+.fa-python {
+    color: #4657d5;
+}
+.fa-java{
+    color:#e34c26;
+}
+/* Education Container - START */
+.educationContainer{
+    border:4px solid #fff;
+    background-color: #0c0101;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    
+}
+
+.educationContainer-h1 {
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 5px;
+    transition: font-size 1s;
+}
+.educationContainer-h1:hover{
+    font-size:6rem;
+}
+
+.edu-content{
+    background-color:  #99ffcc;
+    width:900px;
+    height:300px;
+    margin-left: 15%;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    color:black;
+    transition: width 1s;
+    transition: height 1s;
+    transition: font 1s;
+
+}
+.edu-content:hover
+{
+    width:1000px;
+    height:420px;
+    font: 3rem;
+}
+
+.education_link{
+    text-decoration: none;
+    color:black;
+}
+
+.education_link:hover{
+    text-decoration: underline;
+}
+
+.education_year{
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 80%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    transition: font 1s;
+    
+}
+.education_year:hover
+{
+    font: 3rem;
+}
+
+.education_subtitle{
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 5px;
+    transition: font 1s;
+}
+.education_subtitle:hover
+{
+    font: 3rem;
+}
+
+.education_list{
+    font-size: 1.2rem;
+    color:black;
+    padding-bottom: 1rem;
+    transition: font 1s;
+}
+.education_list:hover
+{
+    font: 3rem;
+}
+.contactMeContainer {
+    border:black;
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 5%;
+    transition: font 1s;
+}
+.contactMeContainer:hover
+{
+    font-size: 3rem;
+}
+.disabled-link {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.logos-img {
+    position: relative;
+    margin: auto;
+    background-color: black;
+}
+
+.popup-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: var(--black); */
+    background-color:  #99ffcc;
+}
+
+.popup-logos .logo {
+    position: relative;
+    background-color: black;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    /* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
+    /* box-shadow: 2px 6px 14px 3px var(--black); */
+    cursor: pointer;
+
+    /* transition: property duration timing-function delay|initial|inherit; */
+    transition: all .2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.popup-logos .icon-name {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background-color: var(--black);
+    color: var(--black);
+    padding: 5px 8px;
+    
+    /* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
+    /* box-shadow: 0 10px 10px rgba(0,0,0,0.1); */
+    
+    opacity: 0;
+    pointer-events: none;
+
+    /* transition: property duration timing-function delay|initial|inherit; */
+    transition: all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}

@@ -1,0 +1,212 @@
+body{
+    background-color: black;
+    margin: 0;
+    color:Azure;
+    font-family: 'Poppins', sans-serif;
+    background: url("mainimage.jpeg") ;
+}
+
+.tea
+{
+    font-size: 7rem;
+}
+.topnav {
+    overflow: hidden;
+    background-color:black;
+    }
+
+    .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 29px;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 20px;
+    font-weight: normal;
+    border: 1px solid white;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 15px currentcolor; */
+    }
+
+    .topnav a:hover {
+    /* background-color: rgb(106, 39, 207); */
+    background-image: linear-gradient( rgb(106, 39, 207), rgb(24, 148, 185));
+    color: white;
+    }
+    .as1
+    {
+        position: absolute;
+        left: 1040px;
+        top: 40px;
+    }
+    .as2
+    {
+        position: absolute;
+        left: 1225px;
+        top: 40px;
+    }
+    .as3
+    {
+        position: absolute;
+        left: 1375px;
+        top: 40px;
+    }
+ .a1
+ {
+    position:absolute;
+    left:200px;
+    top:200px;
+    width:300px;
+    height:500px;
+    background: url("mainimage.jpeg") ;
+    color:white;
+ }
+
+ .a2 
+ {
+    position:absolute;
+    left:650px;
+    top:200px;
+    width:300px;
+    height:500px;
+    background-color:url("mainimage.jpeg");
+    color:white;
+    
+ }
+ .a3
+ {
+    position:absolute;
+    left:1100px;
+    top:200px;
+    width:300px;
+    height:500px;
+    background-color:url("mainimage.jpeg");
+    color:white;
+ }
+ .a11
+ {
+    background: url("nehemiah1.jpg") 0 1px / cover;
+    height:200px;
+    width:200px;
+    border: 4px solid white;
+    position:absolute;
+    left:45px;
+    top:20px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+ }
+ .b1 {
+    background:url("mainimage.jpeg") 0 1px / cover;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 12px;
+  }
+  .t1 
+  {
+    color:white;
+  }
+  
+ .a12
+ {
+    position:absolute;
+    left:45px;
+    top: 220px;
+ }
+ .a21
+ {
+    background: url("pujeth.jpg") 0 1px / cover;
+    height:200px;
+    width:200px;
+    border: 4px solid white;
+    position:absolute;
+    left:45px;
+    top:20px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+ }
+ .a22
+ {
+    position:absolute;
+    left:60px;
+    top: 220px;
+ }
+ .b2 {
+    background:url("mainimage.jpeg") 0 1px / cover;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 12px;
+  }
+  .t2
+  {
+    color:white;
+  }
+  .a31
+ {
+    background: url("noniesh1.jpg") 0 1px / cover;
+    height:200px;
+    width:200px;
+    border: 4px solid white;
+    position:absolute;
+    left:45px;
+    top:20px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+ }
+ .a32
+ {
+    position:absolute;
+    left:60px;
+    top: 220px;
+ }
+ .b3 {
+    background:url("mainimage.jpeg") 0 1px / cover;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 12px;
+  }
+  .t3
+  {
+    color:white;
+  }
+  .contact-me-text{
+    padding: 5% 10% 2% 10%;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 2rem;
+    font-weight: 600;
+    color:white;
+}
+.contact-form{
+    padding: 5%;
+    padding-top:0%;
+}
+.or{
+    text-align: center;
+    padding: 15% 0%;
+    font-size:1.75rem;
+}

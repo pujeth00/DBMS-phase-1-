@@ -1,0 +1,330 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* width: 100%;
+    height: 100%; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #060606;
+    overflow: hidden;
+    padding: 5px;
+    /* position: fixed; */
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+.profile-pic {
+    position: absolute;
+    left:100px;
+    top:100px;
+    width: 250px;
+    height: 250px;
+    background: url("pujeth.jpg") 0 1px / cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.details {
+    text-align: center;
+    color: #fff;
+    transition: .4s ease;
+}
+
+
+.fa-html5 {
+    color: #e34c26;
+}
+
+.fa-css3-alt {
+    color: #0098ff;
+}
+
+.fa-python {
+    color: #4657d5;
+}
+
+.container:hover .layer {
+    height: 100%;
+}
+
+.container:hover .details {
+    color: #040404;
+}
+
+.container:hover .btn a {
+    border-color: #040404;
+    color: #040404;
+}
+
+.container:hover .skills i {
+    opacity: 1;
+}
+
+
+/* About me container Styling */
+
+@media screen and (max-width: 850px ) {
+    .AboutContainer {
+        background-color: Azure;
+        font-size: 1.25rem;
+    }
+
+    .introContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+
+
+.AboutContainer {
+    background-color: rgb(5, 245, 245);
+    color:#040404;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 1.25rem;
+    
+}
+
+.introContainer {
+    /* grid-column: 1 / 2;
+    grid-row: 1 / 2; */
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+    /* background-color: red; */
+    padding-left: 14px;
+    /* background-color: black; */
+}
+
+.links-container a{
+    padding: 3px;
+}
+
+/* Skills Container (Using Grid) */
+
+@media screen and (max-width: 1000px) {
+    .skillsContainer {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        column-gap: 25px;
+        row-gap: 20px;
+        background-color: #0c0c0c;
+        padding: 65px;    
+    }
+
+    .python,  .cpp, .html-css,.Machine_learning{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(10, 10, 10);
+    }
+}
+
+
+@media screen and (min-width: 1001px) {
+    .skillsContainer {
+        display: grid;
+        /* grid-template-columns: 30% 30% 30%; */
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        column-gap: 55px;
+        row-gap: 20px;
+        background-color: #0c0101;
+        padding: 65px;
+        
+    }
+
+    .python,.cpp, .html-css,.Machine_learning{
+        width: 300px;
+        height: 175px;
+        background-color:  rgb(5, 245, 245);
+        color:black;
+    }
+}
+
+.skillsContainer-h1{
+    text-align: center;
+    font-size: 4rem;
+    background-color: #0c0101;
+    color:white;
+
+}
+
+
+/* Education Container - START */
+.educationContainer{
+    background-color: hsl(69, 85%, 96%);
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+.educationContainer-h1 {
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 5px;
+}
+
+.edu-content{
+    background-color:rgb(5, 245, 245);
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    color:black;
+}
+
+.education_link{
+    text-decoration: none;
+    color:black;
+}
+
+.education_link:hover{
+    text-decoration: underline;
+}
+
+.education_year{
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 80%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.education_subtitle{
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 5px;
+}
+
+.education_list{
+    font-size: 1.2rem;
+    color: black;
+    padding-bottom: 1rem;
+}
+
+.contactMeContainer {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 5%;
+}
+
+.disabled-link {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.logos-img {
+    position: relative;
+    margin: auto;
+    background-color: black;
+}
+
+.popup-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: var(--black); */
+    background-color: #6a6978;
+}
+
+.popup-logos .logo {
+    position: relative;
+    background-color: var(--white);
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    /* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
+    /* box-shadow: 2px 6px 14px 3px var(--black); */
+    cursor: pointer;
+
+    /* transition: property duration timing-function delay|initial|inherit; */
+    transition: all .2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.popup-logos .icon-name {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background-color: var(--white);
+    color: var(--white);
+    padding: 5px 8px;
+    
+    /* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
+    /* box-shadow: 0 10px 10px rgba(0,0,0,0.1); */
+    
+    opacity: 0;
+    pointer-events: none;
+
+    /* transition: property duration timing-function delay|initial|inherit; */
+    transition: all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+
+}
+
+.popup-logos .icon-name::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background-color: var(--black);
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all .3s cubic-bezier(0.68,-0.55,0.265.1.55);
+}
+.footer-nav {
+    background-color: #6a6978;
+    padding: 25px;
+    font-size: 1.25rem;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;  
+}
